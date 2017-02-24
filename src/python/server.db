@@ -1,1 +1,1 @@
-{"_default": {"1": {"count": 1, "shape": "oblong", "type": "basic"}}}
+{"_default": {"9": {"count": "10", "shape": "circle", "type": "Sweet Potato"}, "12": {"count": "40", "shape": "triangle", "type": "Sour and Cream Potato"}, "14": {"count": "200", "shape": "pizza", "type": "Pizza Pie Potato"}}}
