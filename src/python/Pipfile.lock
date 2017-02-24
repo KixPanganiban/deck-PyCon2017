@@ -1,0 +1,45 @@
+{
+    "default": {
+        "future": {
+            "version": "==0.16.0",
+            "hash": "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb"
+        },
+        "greenlet": {
+            "version": "==0.4.12",
+            "hash": "sha256:e4c99c6010a5d153d481fdaf63b8a0782825c0721506d880403a3b9b82ae347e"
+        },
+        "zerorpc": {
+            "version": "==0.6.0",
+            "hash": "sha256:a33796af8f48d8ec443d878a0a1dd7ae82d037cfaf34c28f053c3370465e9839"
+        },
+        "msgpack-python": {
+            "version": "==0.4.8",
+            "hash": "sha256:1a2b19df0f03519ec7f19f826afb935b202d8979b0856c6fb3dc28955799f886"
+        },
+        "tinydb": {
+            "version": "==3.2.2",
+            "hash": "sha256:26af7336a83c74c2eb9de27754f5962885b0a261ed84cb5e141648e1efcf4646"
+        },
+        "gevent": {
+            "version": "==1.2.1",
+            "hash": "sha256:f68fa3b23e518ce12f8b14264ba567eb2f8a22923f85257d5043fb81e78dbc43"
+        },
+        "pyzmq": {
+            "version": "==16.0.2",
+            "hash": "sha256:bf5b68eb52acb511be3e0612758a3fddb8c2557a4b49572615886721a5ec34a3"
+        }
+    },
+    "develop": {},
+    "_meta": {
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ],
+        "requires": {},
+        "hash": {
+            "sha256": "8febd2751de642dbeb89b325a74c957d472295ee6d8adc48b0a751586b468d14"
+        }
+    }
+}
