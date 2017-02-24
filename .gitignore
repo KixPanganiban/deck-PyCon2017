@@ -1,2 +1,7 @@
+# python
 *.pyc
 .venv/
+server.db
+
+# js
+node_modules/

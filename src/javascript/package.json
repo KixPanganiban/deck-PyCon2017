@@ -1,0 +1,15 @@
+{
+  "name": "potatolist",
+  "version": "0.0.1",
+  "description": "A server that shows potatoes",
+  "main": "index.js",
+  "repository": "https://github.com/kixpanganiban/deck-PyCon2017",
+  "author": "Kix Panganiban",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mu2": "^0.5.21",
+    "zerorpc": "^0.9.7"
+  }
+}

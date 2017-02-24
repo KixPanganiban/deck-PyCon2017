@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Potatolist!</title>
+        <link rel="stylesheet" href="/static/normalize.css"/>
+        <link rel="stylesheet" href="/static/skeleton.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>Welcome to Potatolist!</h1>
+            </div>
+            <div class="row">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Count</th>
+                            <th>Shape</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#potatoes}}
+                        <tr>
+                            <td>{{type}}</td>
+                            <td>{{count}}</td>
+                            <td>{{shape}}</td>
+                            <td>
+                                <a style="background-color: #aa0000; color: white;" class="button" href="/delete/?{{url}}">Delete</a>
+                                <a class="button" href="/update/?{{url}}">Update</a>
+                            </td>
+                        </tr>
+                        {{/potatoes}}
+                    </tbody>
+                </table>
+            </div>
+            <hr/>
+            <div class="row">
+                <h3>Add a potato</h3>
+                <form method="POST" action="/add/">
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="type">Potato Type</label>
+                            <input name="type" type="text" class="u-full-width"/>
+                        </div>
+                        <div class="six columns">
+                            <label for="count">Count</label>
+                            <input name="count" type="number" class="u-full-width"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="shape">Shape</label>
+                        <input name="shape" type="text" class="u-full-width"/>
+                    </div>
+                    <div class="row">
+                        <input type="submit" class="button button-primary" value="Submit"/>
+                        <input type="reset" class="button" value="Reset"/>
+                    </div>                        
+                </form>
+            </div>
+        <div class="row">
+            <center>kix panganiban &bull; MIT License &bull; <a href="https://github.com/kixpanganiban/deck-PyCon2017">GitHub</a></center>
+        </div>
+        </div>
+    </body>
+</html>
